@@ -68,5 +68,5 @@ This project uses MockAPI to simulate a backend for storing and retrieving data.
 ## 📸 Screenshots
 
 ```md id="2g4l4m"
-![App UI](crud.png)
+![Crud](crud.png)
 
