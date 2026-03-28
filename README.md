@@ -1,12 +1,72 @@
-# React + Vite
+# Redux Toolkit CRUD App 🧩
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple CRUD (Create, Read, Update, Delete) application built using React and Redux Toolkit, with data stored and managed through MockAPI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Overview
 
-## Expanding the ESLint configuration
+This project demonstrates how to manage application state using Redux Toolkit and perform CRUD operations with an external API (MockAPI).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It provides a clean and simple user interface for creating, viewing, editing, and deleting user data.
+
+---
+
+## ✨ Features
+
+* ➕ Create new posts/users
+* 📄 View all data
+* ✏️ Edit existing data
+* ❌ Delete data
+* 🔍 Filter data by gender (male / female)
+* ⚡ State management using Redux Toolkit
+
+---
+
+## 🛠️ Technologies Used
+
+* React.js
+* Redux Toolkit (RTK)
+* React Bootstrap
+* MockAPI (for backend simulation)
+
+---
+
+## 🚀 Live Demo
+
+🔗https://crud-using-reduxtoolkit.web.app/
+
+---
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash id="8x1o4g"
+git clone https://github.com/your-username/repo-name.git
+```
+
+Install dependencies:
+
+```bash id="y3z9dp"
+npm install
+```
+
+Run the project:
+
+```bash id="zdlc5c"
+npm start
+```
+
+---
+
+## 🌐 API Used
+
+This project uses MockAPI to simulate a backend for storing and retrieving data.
+
+---
+
+## 📸 Screenshots
+
+```md id="2g4l4m"
+![App UI](crud.png)
+
